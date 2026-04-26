@@ -44,6 +44,7 @@
 │  ── Cases / Ton / Value toggle  ── Detailed mode toggle                    │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+![Architecture](assets/powerbi_reports_architecture.svg)
 
 ---
 
