@@ -22,28 +22,6 @@
 
 ## 🗺️ Dashboard Overview
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    FMCG Sales Reporting Suite                               │
-│                                                                             │
-│  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐             │
-│  │  Primary Sales  │  │ Secondary Sales │  │  Bizom Primary  │             │
-│  │  Group · Zone   │  │  Product Level  │  │  Sub Sales      │             │
-│  │  Zone · Subzone │  │  Zone · Subzone │  │  Line Chart     │             │
-│  └─────────────────┘  └─────────────────┘  └─────────────────┘             │
-│                                                                             │
-│  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐             │
-│  │  Working Cost   │  │  Passed Cost    │  │  Monthwise      │             │
-│  │  Pri + Sec cost │  │  Correction     │  │  Cumulative     │             │
-│  │  breakdown      │  │  Factor view    │  │  Sales chart    │             │
-│  └─────────────────┘  └─────────────────┘  └─────────────────┘             │
-│                                                                             │
-│  Shared across all pages:                                                   │
-│  ── KPI header bar  ── Filter panel (4 categories)  ── Month selector      │
-│  ── Group|Subgroup / Product Level / Zone|Subzone toggle                   │
-│  ── Cases / Ton / Value toggle  ── Detailed mode toggle                    │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
 ![Architecture](assets/powerbi_reports_architecture.svg)
 
 ---
