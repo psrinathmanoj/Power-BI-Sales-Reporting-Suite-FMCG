@@ -34,6 +34,8 @@ The core sales report. Shows primary indent vs actual sales across three view mo
 
 **Group | Subgroup view**
 
+![Primary Sales — Group view](assets/02_primary_sales_group.png)
+
 | group | Pri Indent | Pri Indent (Bizom) | Pri Indent (Manual) | Pri Sales | Dir Sub Pri | Target | Ach % | Correction Factor | Correction Factor % |
 |---|---|---|---|---|---|---|---|---|---|
 | Group A | 2,052.22 | 2,052.22 | — | 1,904.72 | 1,680.86 | — | — | 32.15 | 1.57% |
@@ -46,6 +48,8 @@ The core sales report. Shows primary indent vs actual sales across three view mo
 > Correction factor highlights in red when correction % exceeds threshold (e.g. Group D showing 83.61% flags as anomalous)
 
 **Zone | Subzone view**
+
+![Primary Sales — Zone view](assets/01_primary_sales_zone.png)
 
 | zone_name | sub_zone_name | Pri Indent | Pri Indent (Bizom) | Pri Indent (Manual) | Pri Sales | Dir Sub Pri | Target | Ach % |
 |---|---|---|---|---|---|---|---|---|
@@ -74,6 +78,8 @@ The core sales report. Shows primary indent vs actual sales across three view mo
 
 Shows monthwise breakup of primary sales by zone when Month View toggle is ON:
 
+![Primary Sales — Month View](assets/07_month_view_primary_sales.png)
+
 | zone_name | sub_zone_name | Jan-2026 | Feb-2026 | Mar-2026 | Apr-2026 | **Total** |
 |---|---|---|---|---|---|---|
 | ZONE BETA | Sub Zone A | 545.76 | 579.90 | 461.10 | 248.10 | **1,834.85** |
@@ -90,6 +96,8 @@ Shows monthwise breakup of primary sales by zone when Month View toggle is ON:
 ### 3. 🟢 Bizom Primary — Sub Sales (Line Chart view)
 
 Multi-line chart showing sub-distributor secondary sales trend over months per zone:
+
+![Bizom Primary — Sub Sales line chart](assets/11_line_view_sub_sales.png)
 
 **Chart configuration:**
 - X axis: `year_month` (Jan-2025 → Dec-2025)
@@ -116,6 +124,8 @@ Multi-line chart showing sub-distributor secondary sales trend over months per z
 
 Matrix showing secondary indent cases by zone per month:
 
+![Bizom Primary — Sub Sales (Cases) Month View](assets/09_month_view_sub_sales_cases.png)
+
 | zone_name | sub_zone_name | Jan-2026 | Feb-2026 | Mar-2026 | Apr-2026 | **Total** |
 |---|---|---|---|---|---|---|
 | ZONE BETA | Sub Zone B | 7,619.66 | 7,203.10 | 6,500.02 | 3,737.71 | **25,060.49** |
@@ -130,6 +140,8 @@ Matrix showing secondary indent cases by zone per month:
 ### 5. 🔵 Secondary Sales — Product Level (Tons view)
 
 Sales breakdown by division and product category in tons:
+
+![Secondary Sales — Product Level (Tons)](assets/08_month_view_sec_sales_tons.png)
 
 | division_name | level_2 | Jan-2026 | Feb-2026 | Mar-2026 | Apr-2026 | **Total** |
 |---|---|---|---|---|---|---|
@@ -149,6 +161,8 @@ Sales breakdown by division and product category in tons:
 
 Extended view with UOB, scheme costs, and thruput:
 
+![Secondary Sales — Product Level (Detailed)](assets/06_secondary_sales_product.png)
+
 | division | level_2 | Sec Indent (lakh) | Sec Sales (lakh) | Target (lakh) | Ach % | UOB Sales | UOB Indent | Thruput | Scheme Article | Scheme NC Cost |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Div 3 | Cat Pickle | 3,068.29 | 2,231.49 | — | — | 42,456 | 77,382 | 5,256.00 | 111.25 | 0.02 |
@@ -163,6 +177,8 @@ Extended view with UOB, scheme costs, and thruput:
 ### 7. 🟡 Working Cost — Group View
 
 Comprehensive cost breakdown including primary and secondary scheme costs:
+
+![Working Cost — Group View](assets/03_working_group.png)
 
 | group | Pri Sale | Correction Factor | Correction Factor % | Sub Pri Sale | Dir Sub Pri | Pri Cost | Sec Article Cost | Sec Others Cost | Sec NC Cost | Total Sec Cost |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -179,6 +195,8 @@ Comprehensive cost breakdown including primary and secondary scheme costs:
 
 Passed cost view shows the cost structure after correction factor adjustments:
 
+![Passed Cost — Group View](assets/04_passed_group.png)
+
 | group | Pri Sale | Correction Factor | Correction Factor % | Sub Pri Sale | Dir Sub Pri | Pri Cost | Sec Article Cost | Sec Bizom Cost | Sec Manual Cost | Sec QPS Cost |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Group A | 1,904.72 | 32.15 | 1.57% | 477.74 | 1,680.86 | 137.25 | 0.06 | 71.79 | 14.12 | 3.46 |
@@ -194,6 +212,8 @@ Passed cost view shows the cost structure after correction factor adjustments:
 ### 9. 🟣 Bizom Primary — Sub-Group Sub Sales
 
 Sub-distributor secondary sales and cost summary by group:
+
+![Bizom Primary — Sub-Group Sub Sales](assets/05_bizom_primary_sub_group.png)
 
 | group | Sub Indent | Sub Sales | Sub Cost | Sub Cost% |
 |---|---|---|---|---|
@@ -212,6 +232,8 @@ Sub-distributor secondary sales and cost summary by group:
 ### 10. 📈 Monthwise Cumulative Sales
 
 Cumulative sales chart tracking daily build-up across months within the selected year.
+
+![Monthwise Cumulative Sales](assets/10_monthwise_cumulative.png)
 
 **Configuration:**
 - X axis: Day (1–31)
@@ -248,6 +270,9 @@ Cumulative sales chart tracking daily build-up across months within the selected
 The filter panel has **4 categories** accessible via toggle buttons:
 
 ### Distributor filter
+
+![Distributor filter](assets/13_distributor_filter.png)
+
 | Filter | Options |
 |---|---|
 | `zone_name, sub_zone_name` | All / specific zone & subzone |
@@ -256,6 +281,9 @@ The filter panel has **4 categories** accessible via toggle buttons:
 | `seller_name_id` | All / specific seller |
 
 ### Duration filter
+
+![Duration filter](assets/12_duration_filter.png)
+
 | Filter | Options |
 |---|---|
 | `year_month` | Year selector (e.g. 2026) |
@@ -263,6 +291,9 @@ The filter panel has **4 categories** accessible via toggle buttons:
 | `day` | Range slider (1–31) |
 
 ### Group filter
+
+![Group filter](assets/15_group_filter.png)
+
 | Filter | Options |
 |---|---|
 | `group` | All / specific group |
@@ -271,6 +302,9 @@ The filter panel has **4 categories** accessible via toggle buttons:
 | `user_name_id` | All / specific user |
 
 ### Product filter
+
+![Product filter](assets/14_product_filter.png)
+
 | Filter | Options |
 |---|---|
 | `division_name` | All / division |
@@ -536,22 +570,23 @@ def refresh_powerbi_dataset(token, workspace_id, dataset_id):
 │   └── monthwise_cumulative.pbix   # Monthwise Cumulative chart
 ├── semantic_model/
 │   └── model.pbism                 # Shared semantic model
-├── screenshots/
-│   ├── primary_sales_group.png
-│   ├── primary_sales_zone.png
-│   ├── month_view_primary_sales.png
-│   ├── month_view_sub_sales_cases.png
-│   ├── months_view_sec_sales_tons.png
-│   ├── line_view_sub_sales_value.png
-│   ├── monthwise_cumulative_sales.png
-│   ├── passed_group.png
-│   ├── Working_group.png
-│   ├── ss_sub_group.png
-│   ├── sec_sales_product.png
-│   ├── distriburtor_filter.png
-│   ├── duration_filter.png
-│   ├── group_filter.png
-│   └── product_filter.png
+├── assets/
+│   ├── powerbi_reports_architecture.svg
+│   ├── 01_primary_sales_zone.png
+│   ├── 02_primary_sales_group.png
+│   ├── 03_working_group.png
+│   ├── 04_passed_group.png
+│   ├── 05_bizom_primary_sub_group.png
+│   ├── 06_secondary_sales_product.png
+│   ├── 07_month_view_primary_sales.png
+│   ├── 08_month_view_sec_sales_tons.png
+│   ├── 09_month_view_sub_sales_cases.png
+│   ├── 10_monthwise_cumulative.png
+│   ├── 11_line_view_sub_sales.png
+│   ├── 12_duration_filter.png
+│   ├── 13_distributor_filter.png
+│   ├── 14_product_filter.png
+│   └── 15_group_filter.png
 └── README.md
 ```
 
